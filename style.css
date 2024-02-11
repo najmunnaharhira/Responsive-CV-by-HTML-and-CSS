@@ -1,0 +1,111 @@
+/* Reset default margin and padding */  
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the whole page */
+body {
+    background-color: #f8f9fa; /* Choose your preferred background color */
+    font-family: 'Arial', sans-serif; /* Choose a suitable font */
+}
+
+/* Center the resume content */
+.resume_wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White background for the resume */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Style the name and role */
+.resume_namerole {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.role {
+    color: #666; /* Choose a suitable color for the role */
+}
+
+/* Style the profile section */
+.resume_profile {
+    height: 2px;
+    background-color: hsl(120, 70%, 53%); /* Choose your preferred color for the line */
+    margin: 20px 0;
+}
+
+.resume_title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: darkgreen; /* Choose a suitable color for the title */
+}
+
+.resume_info, .resume_data, .resume_item {
+    margin-bottom: 20px;
+}
+
+/* Style the skills section */
+.skills {
+    background-color: khaki; /* Choose your preferred background color */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.headline {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333; /* Choose a suitable color for the headline */
+}
+
+.boldline {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333; /* Choose a suitable color for the bold line */
+}
+
+.paintext {
+    margin-top: 5px;
+color: brown; /* Choose a suitable color for the text */
+}
+.interests {
+    display: flex;
+    align-items: center;
+}
+
+.int_icon {
+    margin-right: 10px;
+}
+
+.int_icon i {
+    font-size: 1.5em;
+    color: #3498db;
+}
+.int_icon {
+    margin-right: 10px;
+}
+
+.int_icon i {
+    font-size: 1.5em;
+    color: #3498db;
+}
+
+
+.year {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #3498db; /* Text color for years */
+} 
+
+@media (max-width: 768px) {
+    .resume_wrapper {
+        padding: 10px;
+    }
+}
